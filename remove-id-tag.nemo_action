@@ -1,0 +1,13 @@
+# Copyright (C) 2026 Erick Woods
+# SPDX-License-Identifier: GPL-3.0-only
+[Nemo Action]
+Name=Remove ID Tag
+Comment=Remove tags and cover art without re-encoding or creating backups
+Exec=<rmtags/run.py %F>
+Icon-Name=edit-clear
+Selection=notnone
+Extensions=mp3;mp4;m4a;m4v;m4b;
+Quote=single
+Dependencies=/usr/bin/python3;
+UriScheme=file
+Terminal=false
